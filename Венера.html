@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cонячна система</title>
+  </head>
+  <style>
+    body {
+      display: grid;
+      grid-template-rows: auto;
+      background-image: url(img/Венера.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    header {
+      text-align: center;
+      margin-right: 480px;
+      color: aliceblue;
+    }
+    main {
+      margin-top: 280px;
+      margin-left: 50px;
+      color: aliceblue;
+    }
+    .flex {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-left: -50px;
+    }
+    .item1 {
+      grid-area: header;
+      grid-row: auto;
+    }
+    .item2 {
+      grid-area: main;
+      grid-row: auto;
+    }
+    li {
+      list-style: none;
+      margin: 20px;
+    }
+    li:hover {
+      background-color: rgb(58, 57, 57);
+      cursor: pointer;
+      color: aliceblue;
+    }
+    ul {
+      background-color: gray;
+      margin-right: 250px;
+      width: 5px;
+      transition: all 2s;
+      opacity: 5%;
+    }
+    ul:hover {
+      width: 200px;
+      opacity: 80%;
+    }
+    .box1 {
+      position: absolute;
+      top: 0px;
+      height: 90%;
+      padding-left: 5px;
+    }
+    div {
+      width: 500px;
+    }
+    a:link {
+      color: rgb(58, 57, 57);
+      text-decoration: none;
+    }
+    a:visited {
+      color: black;
+    }
+    a:hover {
+      color: aliceblue;
+    }
+  </style>
+  <body>
+    <header class="item1">
+      <h1>Венера</h1>
+    </header>
+    <menu>
+      <ul class="box1 flex">
+        <li><a href="Сонячна система.html">Сонячна система</a></li>
+        <li><a href="Сонце.html">Сонце</a></li>
+        <li><a href="Меркурій.html">Меркурій</a></li>
+        <li><a href="Венера.html">Венера</a></li>
+        <li><a href="Земля.html">Земл</a>я</li>
+        <li><a href="Марс.html">Марс</a></li>
+        <li><a href="Юпітер.html">Юпітер</a></li>
+        <li><a href="Сатурн.html">Сатурн</a></li>
+        <li><a href="Уран.html">Уран</a></li>
+        <li><a href="Нептун.html">Нептун</a></li>
+        <li><a href="Плутон.html">Плутон</a></li>
+      </ul>
+    </menu>
+    <main class="item1">
+      <div>
+        Вене́ра — друга від Сонця та шоста за розміром планета Сонячної системи.
+        Період обертання навколо Сонця — 224,7 земних діб. Названа на честь
+        Венери, богині кохання з римського пантеону. Це єдина з восьми планет
+        Сонячної системи, яка отримала назву на честь жіночого божества. За
+        розміром майже така ж, як і Земля. Венера — внутрішня планета, і на
+        земному небосхилі не віддаляється від Сонця далі 48°. Венера — 3-й за
+        яскравістю об'єкт на небі; її блиск поступається лише блиску Сонця та
+        Місяця. Належить до планет, відомих людству з найдавніших часів.
+      </div>
+    </main>
+  </body>
+</html>
